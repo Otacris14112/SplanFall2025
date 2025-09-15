@@ -1,0 +1,111 @@
+body {
+    background-color: #bc9ff1;
+    color: #ffffff;
+    margin: 0x;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4 px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
+    margin: 0px;
+    font-weight: 100;
+}
+
+header {
+    background-color: #bc9fc7;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: -8px;
+    word-spacing: 15px;
+    font-size: 30px;
+    color: rgb(63, 30, 30);
+}
+
+header h1 {
+    font-weight: 100;
+    letter-spacing: -2px;
+    margin: 10px;
+    border-inline: 4px dotted blue;
+}
+
+header h2 {
+    font-weight: 500;
+    margin: 10px;
+    letter-spacing: -2px;
+    border: 2px solid red;
+  padding: 10px;
+  border-top-left-radius: 25px;
+
+}
+
+nav {
+    background-color: #ff0000;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*descendant selector */
+nav a {
+    margin: 20px;
+    background-color: #7fc28e;
+    text-decoration: none;
+    border-radius: 10spx;
+
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+main {
+    background-color: #2d003f;
+    padding: 100px;
+}
+
+main h2 {
+    font-size: 66px;
+    letter-spacing: -6px;
+    margin: 20px 0px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+
+}
+
+main h3 {
+    font-size: 26px;
+}
+
+main p {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+main img {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    border-radius: 10spx;
+    border: 10px solid transparent;
+    border-image: url(images/border.png) 30 round;
+
+}
+
+footer {
+    background-color: #5b336b;
+    padding: 20px;
+    border-radius: 25px;
+}

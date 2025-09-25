@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background02.jpg");
+    background-attachment: fixed;
+    font-family:'Oldenburg', Times, serif
+
+}
+
+.oldenburg-regular {
+  font-family: "Oldenburg", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* only us id once per page, use a hashtag */
+#wrapper {
+    width: 80%;
+    background-color: #91B04C;
+    margin: 40px auto;
+    padding: 20px 100px;
+}
+
+#wrappa {
+    width: 80%;
+    background-color: #588f61;
+    margin: 40px auto;
+    padding: 40px 200px;
+}
+
+/* use them as many times as you like, use period */
+span.mushroom {
+    color: #6722e9;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic
+}
+    span.types {
+    color: #f8341a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic
+}
+
+nav {
+    background-color: #423B46;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 26px;
+     font-family: "MedievalSharp", system-ui;
+}
+
+h1,
+h2 {
+font-size: 60px;
+text-align: center; 
+font-family: "Oldenburg", sans-serif;
+
+}
+h3 {
+    text-align: center;
+    font-family: "Oldenburg", sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+main p.types {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+main table {
+    text-align: center;
+    background-color: #e1ff9b;
+    width: 100%;
+    padding: 2px;
+}
+
+main table th {
+    background-color: #a8ca58;
+    text-align: center;
+
+}
+
+a {
+  color: #F0D13A;
+  font-weight: bold;
+}
+
+main table td,
+main table th {
+    padding: 6px;
+    border: 1px solid #000;
+}
+
+footer{
+    
+    text-align: center;
+}
+

@@ -1,0 +1,170 @@
+/* border-box fix*/
+html {
+    box-sizing: border-box;
+}
+
+/* asterisk (*) symbol represents the universal selector. Its primary function is to select all elements of any type within the document. */
+/* :before is a pseudo-element used to insert content before the actual content of a selected element. It creates a "virtual" first child within the element, allowing you to style and add content that isn't directly present in your HTML markup. */
+*,
+::before,
+:after {
+    box-sizing: inherit;
+}
+
+/*end border-box fix*/
+
+body {
+    background-image: url("images/background01.jpg");
+    padding: 0px;
+    margin: 0px;
+}
+
+.margarine-regular {
+    font-family: "Margarine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+
+    font-family: "Margarine", sans-serif;
+}
+
+p {
+    font-family: "Bangers", system-ui;
+}
+
+#wrapper {
+    max-width: 1400px;
+    background-color: #ffd000;
+    border: solid #483d8b 10px;
+    /* center the wrapper */
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add padding to all of the #wrapper child elements, >* symbol looks for first child in inside the selector */
+#wrapper>* {
+    padding: 20px;
+}
+
+header {
+    background: #466251;
+    order: 1;
+    flex: 0 0 100%;
+    opacity: 0.8;
+
+    top: 0;
+    z-index: 1;
+}
+
+main {
+    background: #AE9864;
+    order: 3;
+    flex: 1 1 500px;
+    text-align: center;
+}
+
+/* subscribe*/
+main div.buttonAbsolute {
+    background-color: #ffd000;
+    font-family: "Bangers", system-ui;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 150px;
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 125px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+main div.buttonRelative {
+    background-color: #ffd000;
+    font-family: "Bangers", system-ui;
+    width: 100px;
+    padding: 10px;
+    border-radius: 125px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    left: 40px;
+    z-index: 3;
+
+}
+
+main div.buttonHome {
+    background-color: rgb(255, 208, 0);
+    font-family: "Bangers", system-ui;
+    width: 100px;
+    padding: 10px;
+    border-radius: 125px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    left: 40px;
+    z-index: 3;
+}
+
+main img {
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 10spx;
+    border: 10px solid transparent;
+    border-image: url(images/border.png) 30 round;
+}
+
+nav {
+    background: #503440;
+    order: 2;
+    flex: 0 0 200px;
+}
+
+nav div.buttonRelative {
+    background-color: #ffd000;
+    font-family: "Bangers", system-ui;
+    width: 100px;
+    padding: 10px;
+    border-radius: 125px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    
+    z-index: 3;
+
+}
+
+aside {
+    background:#032522;
+    order: 4;
+    flex: 1 0 200px;
+}
+
+aside img {
+    width: 500px;
+    height: 500px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 10px solid transparent;
+    border-image: url(images/border.png) 30 round;
+}
+
+footer {
+    background: #466251;
+    font-family: "Bangers", system-ui;
+    order: 5;
+    flex: 0 0 100%;
+}

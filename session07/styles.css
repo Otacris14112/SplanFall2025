@@ -62,7 +62,7 @@ header {
     order: 1;
     flex: 0 0 100%;
     opacity: 0.8;
-
+    position: sticky;
     top: 0;
     z-index: 1;
 }
@@ -167,4 +167,5 @@ footer {
     font-family: "Bangers", system-ui;
     order: 5;
     flex: 0 0 100%;
+
 }

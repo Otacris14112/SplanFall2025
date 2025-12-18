@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid Layout</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Uncial+Antiqua&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a424f1c943.js" crossorigin="anonymous"></script>
+
+	
+
+
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header>
+			<h1>Lorelius Hogglefart's Magic School</h1>
+			<nav>
+				<h2>We Love Casting Spells</h2>
+
+
+				<a href="index.html" class="button">HOME</a>
+
+				<a href="history.html" class="button">HISTORY</a>
+
+				<a href="spell.html" class="button">SPELLS</a>
+
+			</nav>
+		</header>
+
+		<main>
+			<h2>Spell Tutorials</h2>
+			<h3>Fireball</h3>
+			<audio controls src="sounds/fireball.mp3"></audio>
+			<br><br><br>
+			<div class="fireball"></div>
+			<h3>Thundah</h3>
+			<audio controls src="sounds/THUNDAH.mp3", vid.volume = 0.2;> </audio>
+			
+			<br><br><br>
+			<div class="bolt"></div>
+			<br>
+			<div class="bolt"></div>
+
+		</main>
+
+		<aside>
+			<h2>Proper Attire</h2>
+			<aside>
+				<img src="images/wizard2.jpg" alt="Henry">
+				<br>
+				<br>
+				<h3>Do you Like the fit Mage?</h3>
+				<img src="images/wizard3.jpg" alt="Drippy Wizard">
+				<div class="btns">
+				<Button onclick="Toggle1()" id="btnh1" class="btn"><i class="fa-solid fa-heart"></i></Button>
+				</div>
+				<script>
+
+					var btnvar1 = document.getElementById('btnh1');
+
+					function Toggle1(){
+						if (btnvar1.style.color == "red"){
+							btnvar1.style.color ="grey"
+						}
+						else{
+							btnvar1.style.color = "red"
+						}
+					}
+				</script>
+			</aside>
+		</aside>
+
+		<footer>
+			<h2>Sources</h2>
+			<a href="https://en.wikipedia.org/wiki/Wizard" class="button" target="_blank">Wikipedia</a>
+			<br><br>
+			<a href="https://dnd5e.wikidot.com/wizard" class="button" target="_blank">DND Wiki</a>
+			<br><br>
+			&copy; 2025 Grand Wizard Cris
+		</footer>
+
+	</div>
+
+</body>
+
+</html>
